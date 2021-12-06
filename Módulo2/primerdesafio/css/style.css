@@ -1,0 +1,133 @@
+/*---- layout---*/
+.main-conteiner{
+    display: flex;
+    width: 1200px;
+    justify-content:space-evenly;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----General------*/
+ul{
+    list-style-type: none;
+}
+
+h1,
+h2 {
+    text-transform: uppercase ;
+}
+
+/*------ASIDE--------*/
+aside{
+    background-color: #6077A6;
+    flex-basis: 38%;
+}
+aside *{
+    color:white;
+    margin:30px;
+}
+aside h2{
+    letter-spacing: 5px;
+}
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+#profile-pic img{
+    border-radius: 50%;
+}
+aside img {
+    width: 280px; height: 300px;
+    display: block;
+    margin: auto;
+  }
+aside .enlaceRedes a img {
+    width: 10%; height: 10%;
+    display:block;
+    margin-left: auto;
+}
+
+/*----MAIN----*/
+main{
+    flex-basis:60% ;
+    margin:2%
+}
+main section  h2{
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+.hero{
+    background-color: #A8D5C1;
+    box-shadow:2px 2px 40px 1px #647087;
+    padding: 10% 0;
+    text-align: center;
+}
+.hero h2{
+    color: white;
+    border-top: 2px solid white;
+    letter-spacing: 10px;
+}
+.hero h1{
+    letter-spacing: 10px;
+}
+.about-me p{
+    line-height: 2em;
+    background-color: #D5E5F2;
+    padding: 5px ;
+}
+.estudios{
+    line-height: 2em;
+}
+.experienciaLaboral{
+    line-height: 2em;
+}
+article h3,
+article h4 {
+font-weight: bold;
+}
+article ul{
+    list-style-type:square;
+}
+
+/*----DL----*/
+
+dl{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+dt,
+dd{
+    line-height: 1.5em;
+    border-top: 1px solid white;
+    flex-basis: 35%;
+    margin: 0;
+}
+dt:last-of-type,
+dd:last-of-type {
+    border-bottom: 1px solid white;
+}
+dt{
+    text-align: left;
+    font-weight: bolder;
+}
+
+/*----ICONS----*/
+
+.social-item::before{
+    padding: 15px;
+}
+
+/*---METER----*/
+
+meter{
+    display: block ;
+    width: 80%;
+    margin: 1,8em;
+}
+meter::-webkit-meter-optimum-value {
+    background-color: #A4BFBD;
+}
+meter::-webkit-meter-bar {
+    background-color:white;
+}
+
+

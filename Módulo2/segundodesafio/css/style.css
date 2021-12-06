@@ -1,0 +1,17 @@
+
+body{font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    color:white;
+}
+
+.titulo{ background-color: #0097a7;
+    
+    height: 60px; background: linear-gradient(0deg,#fff,#0097a7); 
+    
+}
+img{
+    display: block;
+    margin: auto;
+}
